@@ -1,12 +1,16 @@
 # Node modules
-node_modules
+node_modules/
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # Build outputs
-dist
+dist/
+
+# Ignore ESLint and Prettier files
+.eslintcache
+.prettierignore
