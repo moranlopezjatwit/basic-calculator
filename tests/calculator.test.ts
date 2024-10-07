@@ -11,7 +11,7 @@ describe('Calculator Tests', () => {
   });
 
   it('should multiply two numbers correctly', () => {
-    expect(multiply(4, 5)).toBe(20);
+    expect(multiply(4, 6)).toBe(24);
   });
 
   it('should divide two numbers correctly', () => {
